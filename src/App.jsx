@@ -12,7 +12,6 @@ function App() {
   };
 
   const itemDragStart = (e, item, source) => {
-    // console.log(e, item, source, "eitemsource");
     e.dataTransfer.setData("text/plain", item);
     e.dataTransfer.setData("source", source);
   };
